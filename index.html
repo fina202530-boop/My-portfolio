@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Puja Gurung | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<nav>
+
+    <h2>Puja Gurung</h2>
+
+    <ul>
+
+        <li>
+            <a href="#home"
+               data-en="Home"
+               data-ja="ホーム">
+                Home
+            </a>
+        </li>
+
+        <li>
+            <a href="#about"
+               data-en="About"
+               data-ja="私について">
+                About
+            </a>
+        </li>
+
+        <li>
+            <a href="#skills"
+               data-en="Skills"
+               data-ja="スキル">
+                Skills
+            </a>
+        </li>
+
+        <li>
+            <a href="#projects"
+               data-en="Projects"
+               data-ja="プロジェクト">
+                Projects
+            </a>
+        </li>
+
+        <li>
+            <a href="#contact"
+               data-en="Contact"
+               data-ja="お問い合わせ">
+                Contact
+            </a>
+        </li>
+
+    </ul>
+
+
+    <button
+        id="languageButton"
+        onclick="toggleLanguage()">
+
+        日本語
+
+    </button>
+
+</nav>
+
+
+
+<!-- =========================
+     HOME
+========================= -->
+
+<section id="home" class="hero">
+
+
+    <div class="hero-text">
+
+        <h1>
+
+            <span
+                data-en="Hello, I'm Puja Gurung 👋"
+                data-ja="こんにちは、Puja Gurungです 👋">
+
+                Hello, I'm Puja Gurung 👋
+
+            </span>
+
+        </h1>
+
+
+        <h2
+            data-en="Global IT Student"
+            data-ja="グローバルIT学生">
+
+            Global IT Student
+
+        </h2>
+
+
+        <p
+            data-en="Aspiring Cloud & Infrastructure Engineer passionate about Cloud Computing, System Development, Python, Docker, Linux and Networking."
+            data-ja="クラウドコンピューティング、システム開発、Python、Docker、Linux、ネットワークに興味がある、クラウド・インフラエンジニアを目指すグローバルIT学生です。">
+
+            Aspiring Cloud & Infrastructure Engineer passionate about
+            Cloud Computing, System Development, Python, Docker, Linux
+            and Networking.
+
+        </p>
+
+
+        <div class="buttons">
+
+
+            <a
+                href="resume/Puja_Gurung_Resume.pdf"
+                download
+                data-en="Download Resume"
+                data-ja="履歴書をダウンロード">
+
+                Download Resume
+
+            </a>
+
+
+            <a
+                href="#projects"
+                data-en="View Projects"
+                data-ja="プロジェクトを見る">
+
+                View Projects
+
+            </a>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="hero-image">
+
+        <img
+            src="c:\Users\fn0130\OneDrive - フォーラム情報アカデミー専門学校\画像\imageprofile.jpg"
+            alt="Puja Profile">
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     ABOUT / PROFILE
+========================= -->
+
+<section id="about">
+
+
+    <h2
+        data-en="About Me"
+        data-ja="私について">
+
+        About Me
+
+    </h2>
+
+
+    <p
+        data-en="Hello, I am Puja Gurung. I am a Global IT student studying Cloud and Infrastructure Engineering in Japan. I am interested in Cloud Computing, System Development, Linux, Python, Docker, Networking, and Web Development. I enjoy building practical applications and learning how cloud and infrastructure technologies work together. My goal is to become a Cloud & Infrastructure Engineer and develop reliable and scalable IT solutions."
+        data-ja="こんにちは、Puja Gurungです。私は日本でクラウド・インフラエンジニアリングを学んでいるグローバルIT学生です。クラウドコンピューティング、システム開発、Linux、Python、Docker、ネットワーク、Web開発に興味があります。実践的なアプリケーションを作りながら、クラウドとインフラ技術について学んでいます。将来はクラウド・インフラエンジニアとして、信頼性が高く拡張性のあるITシステムを開発することを目指しています。">
+
+        Hello, I am Puja Gurung.
+
+        I am a Global IT student studying Cloud and Infrastructure Engineering in Japan.
+
+        I am interested in Cloud Computing, System Development, Linux,
+        Python, Docker, Networking, and Web Development.
+
+        I enjoy building practical applications and learning how cloud
+        and infrastructure technologies work together.
+
+        My goal is to become a Cloud & Infrastructure Engineer and develop
+        reliable and scalable IT solutions.
+
+    </p>
+
+
+</section>
+
+
+
+<!-- =========================
+     SKILLS
+========================= -->
+
+<section id="skills">
+
+
+    <h2
+        data-en="My Skills"
+        data-ja="スキル">
+
+        My Skills
+
+    </h2>
+
+
+    <div class="skills-container">
+
+
+
+        <!-- CLOUD -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-cloud"></i>
+
+            <h3
+                data-en="Cloud Computing"
+                data-ja="クラウドコンピューティング">
+
+                Cloud Computing
+
+            </h3>
+
+            <p
+                data-en="Microsoft Azure, Azure Storage, Azure SQL Database, App Service, Cloud Deployment"
+                data-ja="Microsoft Azure、Azure Storage、Azure SQL Database、App Service、クラウドデプロイ">
+
+                Microsoft Azure, Azure Storage,
+                Azure SQL Database, App Service,
+                Cloud Deployment
+
+            </p>
+
+        </div>
+
+
+
+        <!-- PROGRAMMING -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-server"></i>
+
+            <h3
+                data-en="Programming"
+                data-ja="プログラミング">
+
+                Programming
+
+            </h3>
+
+            <p
+                data-en="Python, HTML, CSS, JavaScript, SQL"
+                data-ja="Python、HTML、CSS、JavaScript、SQL">
+
+                Python, HTML, CSS,
+                JavaScript, SQL
+
+            </p>
+
+        </div>
+
+
+
+        <!-- SYSTEM DEVELOPMENT -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-laptop-code"></i>
+
+            <h3
+                data-en="System Development"
+                data-ja="システム開発">
+
+                System Development
+
+            </h3>
+
+            <p
+                data-en="Python, Flask, SQL, Web Application Development, Database Design"
+                data-ja="Python、Flask、SQL、Webアプリケーション開発、データベース設計">
+
+                Python, Flask, SQL,
+                Web Application Development,
+                Database Design
+
+            </p>
+
+        </div>
+
+
+
+        <!-- INFRASTRUCTURE -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-code"></i>
+
+            <h3
+                data-en="Infrastructure"
+                data-ja="インフラストラクチャ">
+
+                Infrastructure
+
+            </h3>
+
+            <p
+                data-en="Networking, Linux, Docker, Virtualization, Server Management"
+                data-ja="ネットワーク、Linux、Docker、仮想化、サーバー管理">
+
+                Networking, Linux,
+                Docker, Virtualization,
+                Server Management
+
+            </p>
+
+        </div>
+
+
+
+        <!-- TOOLS -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+
+            <h3
+                data-en="Tools"
+                data-ja="ツール">
+
+                Tools
+
+            </h3>
+
+            <p
+                data-en="Git, GitHub, VS Code, Azure DevOps, CI/CD Pipeline"
+                data-ja="Git、GitHub、VS Code、Azure DevOps、CI/CDパイプライン">
+
+                Git, GitHub, VS Code,
+                Azure DevOps, CI/CD Pipeline
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     PROJECTS
+========================= -->
+
+<section id="projects">
+
+
+    <h2
+        data-en="My Projects"
+        data-ja="プロジェクト">
+
+        My Projects
+
+    </h2>
+
+
+    <div class="projects-container">
+
+
+
+        <!-- CLOUDFILES -->
+
+        <div class="project-card">
+
+
+            <h3
+                data-en="CloudFiles - Cloud Storage System"
+                data-ja="CloudFiles - クラウドストレージシステム">
+
+                CloudFiles - Cloud Storage System
+
+            </h3>
+
+
+            <p
+                data-en="CloudFiles is a cloud-based file management application developed using Python Flask and Microsoft Azure. The application allows users to create accounts, log in securely, upload files, download files, and manage their cloud storage."
+                data-ja="CloudFilesは、Python FlaskとMicrosoft Azureを使用して開発したクラウドベースのファイル管理アプリケーションです。ユーザーはアカウントを作成し、安全にログインして、ファイルのアップロード、ダウンロード、管理を行うことができます。">
+
+                CloudFiles is a cloud-based file management application
+                developed using Python Flask and Microsoft Azure.
+
+                The application allows users to create accounts,
+                log in securely, upload files, download files,
+                and manage their cloud storage.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+
+                <span>Flask</span>
+
+                <span>Azure</span>
+
+                <span>Azure SQL</span>
+
+                <span>Docker</span>
+
+                <span>Cloud Storage</span>
+
+            </div>
+
+
+            <div class="project-buttons">
+
+
+                <a
+                    href="https://github.com/fina202530-boop/cloudportal"
+                    target="_blank"
+                    data-en="GitHub"
+                    data-ja="GitHub">
+
+                    GitHub
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- COURSE MANAGEMENT -->
+
+        <div class="project-card">
+
+
+            <h3
+                data-en="Course Management System"
+                data-ja="コース管理システム">
+
+                Course Management System
+
+            </h3>
+
+
+            <p
+                data-en="A database management system developed using Python and SQL. This project manages course information and demonstrates database design, CRUD operations, and relational database concepts."
+                data-ja="PythonとSQLを使用して開発したデータベース管理システムです。コース情報を管理し、データベース設計、CRUD操作、リレーショナルデータベースの基本概念を学ぶためのプロジェクトです。">
+
+                A database management system developed using Python
+                and SQL.
+
+                This project manages course information and demonstrates
+                database design, CRUD operations,
+                and relational database concepts.
+
+            </p>
+
+
+            <div class="tech-stack">
+
+                <span>Python</span>
+
+                <span>SQL</span>
+
+                <span>Database</span>
+
+            </div>
+
+
+            <div class="project-buttons">
+
+
+                <a
+                    href="#"
+                    target="_blank"
+                    data-en="GitHub"
+                    data-ja="GitHub">
+
+                    GitHub
+
+                </a>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section id="contact">
+
+
+    <h2
+        data-en="Contact Me"
+        data-ja="お問い合わせ">
+
+        Contact Me
+
+    </h2>
+
+
+    <p
+        data-en="I am open to opportunities in Cloud Computing, Infrastructure Engineering, System Development, and IT projects."
+        data-ja="クラウドコンピューティング、インフラエンジニアリング、システム開発、IT分野の仕事やプロジェクトに興味があります。">
+
+        I am open to opportunities in Cloud Computing,
+        Infrastructure Engineering, System Development,
+        and IT projects.
+
+    </p>
+
+
+
+    <div class="contact-container">
+
+
+        <!-- EMAIL -->
+
+        <div class="contact-card">
+
+            <i class="fa-solid fa-envelope"></i>
+
+            <h3
+                data-en="Email"
+                data-ja="メール">
+
+                Email
+
+            </h3>
+
+
+            <a href="mailto:pujatamu2058@gmail.com">
+
+                pujatamu2058@gmail.com
+
+            </a>
+
+        </div>
+
+
+
+        <!-- GITHUB -->
+
+        <div class="contact-card">
+
+            <i class="fa-brands fa-github"></i>
+
+            <h3>
+
+                GitHub
+
+            </h3>
+
+
+            <a
+                href="https://github.com/fina202530-boop/Gurung-Puja"
+                target="_blank"
+                data-en="View GitHub Repository"
+                data-ja="GitHubリポジトリを見る">
+
+                View GitHub Repository
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =========================
+     FOOTER
+========================= -->
+
+<footer>
+
+    <p
+        data-en="© 2026 Puja Gurung. All Rights Reserved."
+        data-ja="© 2026 Puja Gurung. All Rights Reserved.">
+
+        © 2026 Puja Gurung. All Rights Reserved.
+
+    </p>
+
+</footer>
+
+
+
+<!-- =========================
+     LANGUAGE SCRIPT
+========================= -->
+
+<script>
+
+    let currentLanguage = "en";
+
+
+    function updateLanguage() {
+
+        document.documentElement.lang = currentLanguage;
+
+
+        const elements =
+            document.querySelectorAll("[data-en][data-ja]");
+
+
+        elements.forEach(function(element) {
+
+            element.textContent =
+                element.getAttribute("data-" + currentLanguage);
+
+        });
+
+
+        const languageButton =
+            document.getElementById("languageButton");
+
+
+        if (currentLanguage === "en") {
+
+            languageButton.textContent = "日本語";
+
+        } else {
+
+            languageButton.textContent = "English";
+
+        }
+
+    }
+
+
+    function toggleLanguage() {
+
+        if (currentLanguage === "en") {
+
+            currentLanguage = "ja";
+
+        } else {
+
+            currentLanguage = "en";
+
+        }
+
+
+        updateLanguage();
+
+    }
+
+
+    // Start in English
+
+    updateLanguage();
+
+</script>
+
+
+</body>
+
+</html>
