@@ -270,7 +270,12 @@ section h2 {
     border-radius: 15px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     transition: 0.3s;
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
+
 
 .project-card:hover {
     transform: translateY(-8px);
@@ -324,6 +329,9 @@ section h2 {
 .project-buttons a:hover {
     background: #0078D4;
     color: white;
+}
+.project-buttons {
+    margin-top: auto;
 }
 
 
