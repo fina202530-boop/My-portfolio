@@ -7,6 +7,11 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta name="description"
+        content="Puja Gurung - Global IT student specializing in cloud computing, infrastructure engineering, Python, Docker, and AI-assisted development.">
+
+    <meta name="theme-color" content="#0078D4">
+
     <title>Puja Gurung | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
@@ -29,9 +34,9 @@
      NAVIGATION
 ========================= -->
 
-<nav>
+<nav aria-label="Main navigation">
 
-    <h2>Puja Gurung</h2>
+    <h2><span class="brand-mark">PG</span> Puja Gurung</h2>
 
     <ul>
 
@@ -80,7 +85,9 @@
 
     <button
         id="languageButton"
-        onclick="toggleLanguage()">
+        onclick="toggleLanguage()"
+        type="button"
+        aria-label="Switch language">
 
         日本語
 
@@ -98,6 +105,13 @@
 
 
     <div class="hero-text">
+
+        <div class="hero-status"
+            data-en="Open to internships & opportunities"
+            data-ja="インターンシップ・就業機会募集中">
+            <span></span>
+            Open to internships & opportunities
+        </div>
 
         <h1>
 
@@ -131,6 +145,24 @@
 
         </p>
 
+        <div class="hero-stats"
+            aria-label="Portfolio highlights">
+            <div>
+                <strong>8+</strong>
+                <span data-en="Technology Areas"
+                    data-ja="技術分野">Technology Areas</span>
+            </div>
+            <div>
+                <strong>4</strong>
+                <span data-en="Applications Built"
+                    data-ja="開発アプリ">Applications Built</span>
+            </div>
+            <div>
+                <strong>EN/JP</strong>
+                <span data-en="Bilingual Portfolio"
+                    data-ja="バイリンガル">Bilingual Portfolio</span>
+            </div>
+        </div>
 
         <div class="buttons">
 
@@ -164,7 +196,15 @@
 
     <div class="hero-image">
 
-        <img src="images/imageprofile.jpg" alt="Puja Profile">
+        <div class="profile-frame">
+            <img src="images/imageprofile.jpg"
+                 alt="Puja Gurung profile portrait"
+                 width="602"
+                 height="799">
+            <span class="profile-tag"
+                data-en="Cloud & IT"
+                data-ja="クラウド・IT">Cloud & IT</span>
+        </div>
 
     </div>
 
@@ -367,6 +407,34 @@
         </div>
 
 
+
+        <!-- AI-ASSISTED DEVELOPMENT -->
+
+        <div class="skill-card">
+
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+
+            <h3
+                data-en="AI-Assisted Development"
+                data-ja="AI支援開発">
+
+                AI-Assisted Development
+
+            </h3>
+
+            <p
+                data-en="Claude, GitHub Copilot, Cursor, Google Gemini, ChatGPT, TypeScript, RAG, Docker"
+                data-ja="Claude、GitHub Copilot、Cursor、Google Gemini、ChatGPT、TypeScript、RAG、Docker">
+
+                Claude, GitHub Copilot, Cursor,
+                Google Gemini, ChatGPT, TypeScript,
+                RAG, Docker
+
+            </p>
+
+        </div>
+
+
     </div>
 
 
@@ -460,6 +528,147 @@
 
 
 
+       <!-- AI COMPANY KNOWLEDGE ASSISTANT -->
+
+    <div class="project-card">
+
+    <h3
+        data-en="AI Company Knowledge Assistant"
+        data-ja="AI社内ナレッジアシスタント">
+
+        AI Company Knowledge Assistant
+
+    </h3>
+
+    <p
+        data-en="A company knowledge application that stores PDF, Word, and text documents, extracts their content, and prepares it for retrieval-based AI question answering. It helps employees find information from internal company files."
+        data-ja="PDF、Word、テキスト文書を保存し、内容を抽出してAIによる検索・質問回答に活用できる社内ナレッジアプリです。従業員が社内資料から必要な情報を見つけやすくします。">
+
+        A company knowledge application that stores PDF,
+        Word, and text documents and prepares their content
+        for retrieval-based AI question answering.
+
+    </p>
+
+    <div class="tech-stack">
+
+        <span>React</span>
+
+        <span>TypeScript</span>
+
+        <span>Python</span>
+
+        <span>FastAPI</span>
+
+        <span>PostgreSQL</span>
+
+        <span>pgvector</span>
+
+        <span>RAG</span>
+
+        <span>Docker</span>
+
+    </div>
+
+    <div class="project-buttons">
+
+        <a
+            href="https://github.com/fina202530-boop/ai-company-knowledge-assistant"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="GitHub"
+            data-ja="GitHub">
+
+            GitHub
+
+        </a>
+
+        <a
+            href="http://127.0.0.1:5173/"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="Local Demo"
+            data-ja="ローカルデモ">
+
+            Local Demo
+
+        </a>
+
+    </div>
+
+    </div>
+
+
+
+       <!-- TABLEMATES -->
+
+    <div class="project-card">
+
+    <h3
+        data-en="TableMates Japan"
+        data-ja="TableMates Japan">
+
+        TableMates Japan
+
+    </h3>
+
+    <p
+        data-en="A community platform for international students and tourists in Japan. TableMates helps people discover food tours, meet people from different cultures, and avoid feeling alone while staying or studying in a new country."
+        data-ja="日本で留学・旅行をする留学生や観光客向けのコミュニティプラットフォームです。異文化交流のフードツアーを通じて、新しい場所で孤独を感じずに友達を作ることができます。">
+
+        A community platform for international students
+        and tourists in Japan. TableMates helps people discover
+        food tours, meet people from different cultures,
+        and connect with new friends.
+
+    </p>
+
+    <div class="tech-stack">
+
+        <span>Python</span>
+
+        <span>SQLite</span>
+
+        <span>JavaScript</span>
+
+        <span>HTML</span>
+
+        <span>CSS</span>
+
+        <span>Stripe</span>
+
+    </div>
+
+    <div class="project-buttons">
+
+        <a
+            href="https://github.com/fina202530-boop/Tablemates"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="GitHub"
+            data-ja="GitHub">
+
+            GitHub
+
+        </a>
+
+        <a
+            href="http://127.0.0.1:8000"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-en="Local Demo"
+            data-ja="ローカルデモ">
+
+            Local Demo
+
+        </a>
+
+    </div>
+
+    </div>
+
+
+
        <!-- FOOD BRIDGE -->
 
     <div class="project-card">
@@ -496,7 +705,7 @@
     <div class="project-buttons">
 
         <a
-            href="https://github.com/fina202530-boop/Food_Bridge.git"
+            href="https://github.com/fina202530-boop/Food_Bridge"
             target="_blank"
             data-en="GitHub"
             data-ja="GitHub">
@@ -680,6 +889,28 @@
         updateLanguage();
 
     }
+
+    function updateActiveNavigation() {
+        const sections = document.querySelectorAll("section[id]");
+        const links = document.querySelectorAll("nav ul a");
+
+        let currentSection = "";
+
+        sections.forEach(function(section) {
+            if (window.scrollY >= section.offsetTop - 180) {
+                currentSection = section.id;
+            }
+        });
+
+        links.forEach(function(link) {
+            link.classList.toggle(
+                "active",
+                link.getAttribute("href") === "#" + currentSection
+            );
+        });
+    }
+
+    window.addEventListener("scroll", updateActiveNavigation);
 
 
     // Start in English
